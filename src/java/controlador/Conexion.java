@@ -15,7 +15,7 @@ public class Conexion {
             try {
                 
                 Class.forName("com.mysql.jdbc.Driver");
-                cnn=DriverManager.getConnection("jdbc:mysql://localhost/atam","root","alejo123");
+                cnn=DriverManager.getConnection("jdbc:mysql://localhost/atam","root","heidy123");
                 JOptionPane.showMessageDialog(null,"Conexion Exitosa ");
                 
             } catch (Exception e) {
