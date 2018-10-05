@@ -48,7 +48,7 @@ public class ServletActdatos extends HttpServlet {
         
           String no,ap,fe,us,cla,te,di,cor,fot;
           int i,rol,x;
-          
+
          
 
          i=Integer.parseInt(request.getParameter("ide")); 
@@ -57,13 +57,13 @@ public class ServletActdatos extends HttpServlet {
          fe=request.getParameter("f");
          us=request.getParameter("u");         
          cla=request.getParameter("c");  
-         JOptionPane.showMessageDialog(null, "aqui");
          te=request.getParameter("t");         
          di=request.getParameter("d");         
          cor=request.getParameter("co");         
-         fot=request.getParameter("fo");  
-   
-         ingresoGSusu igetset=new ingresoGSusu(i, no, ap, fe, us, cla, te, di, cor, fot, rol);
+         fot=request.getParameter("fo");   
+         rol=Integer.parseInt(request.getParameter("r")); 
+         
+     ingresoGSusu igetset=new ingresoGSusu(i, no, ap, fe, us, cla, te, di, cor, fot, rol);
          actualizar act=new actualizar();
          x=act.ConfiPerfil(igetset);
          
