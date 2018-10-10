@@ -57,7 +57,7 @@
 <div id="contact" class="container-fluid bg-grey" style="margin-top: 2cm;">
   <center><h1 style="color: #BB0404; font-size: 450%;">PQRS</h1><br>
 
-    <strong><p style="font-family: Lato, sans-serif;color: black;font-size: 125%; ">Aqui puede hacer sus peticiones, quejas, reclamos o avisarnos sobre algun animal que necesite de nuestra ayuda</p></strong>
+    <strong><p style="font-family: Lato, sans-serif;color: black;font-size: 125%; ">Aqui usted puede hacer sus peticiones, quejas, reclamos o avisarnos sobre algun animal que necesite de nuestra ayuda</p></strong>
   </center>
 <form action="" method="post">
   <div class="row">
