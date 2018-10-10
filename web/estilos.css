@@ -22,8 +22,6 @@ h1{
     animation-name: example;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-
-
 }
 .panel-body{
 
@@ -34,7 +32,8 @@ h1{
   .panel {
       border: 1px solid #bb0404; 
       border-radius:0 !important;
-      transition: box-shadow 0.5s;           
+      transition: box-shadow 0.5s;  
+      margin-top: 10%;
       margin-left: 10%;
       height: 40%;
       width: 85%;
