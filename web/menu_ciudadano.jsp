@@ -87,13 +87,14 @@
     </div>    
 
     <div class="col-sm-6 col-xs-12">
-      <div class="panel panel-default text-center">
+        <div class="panel panel-default text-center"><a href="pqr.jps">
         <div class="panel-heading">
           <h1>PQRS</h1>
         </div>
         <div class="panel-body">
           <img class="img-responsive" src="imagenes\pqrs.png" alt="Chania" >
         </div>
+            </a>
         <div class="panel-footer">
           <h4><strong>Si tiene alguna queja, reclamo o petición aqui podras hacerla asi nosotros podremos saber lo que deseas</strong></h4>
           <button class="btn btn-lg"> IR >> </button>
