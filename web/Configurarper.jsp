@@ -71,17 +71,11 @@
 <center>
     
   <div class="container">  
-
     <div id="crear">
-
-            
-
-        <span class="glyphicon glyphicon-cog logo slideanim" style="color: #BB0404;"></span>    
+    <span class="glyphicon glyphicon-cog logo slideanim" style="color: #BB0404;"></span>    
       <br>
-        <h1 style="color: #BB0404; font-size: 350%;">CONFIGURAR PERFIL</h1><br>
+        <h1 style="color: #BB0404; font-size:auto;">CONFIGURAR PERFIL</h1>
 
-<br>
-<br>
         <%
         
         HttpSession todo=request.getSession();
