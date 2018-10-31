@@ -1,8 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 28/08/2018, 08:51:22 AM
-    Author     : SENA
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,7 +7,10 @@
         <title>ATAM</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/22/22744.png" />
+        <link rel="shortcut icon" href="imagenes/logpes.png" />
+        <script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+        <script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -39,6 +37,9 @@
         <li>&nbsp;<span class="glyphicon glyphicon-user" style="color: black;"></span> <input style="text-align: center; width: 140px; height: 24px;" type="text" name="usu" placeholder="USUARIO"></li>&nbsp;&nbsp;
         <li>&nbsp;<span class="glyphicon glyphicon-asterisk" style="color: black;"><input style="text-align: center; width: 140px; height: 24px; font-family: Montserrat;" type="password" name="clave" placeholder="CONTRASEÑA"></li>&nbsp;
         <li><div id="g">&nbsp;&nbsp;<input id="iniciar" class="field" type="submit" name="ingresar" value="INGRESAR"></div></li>
+        
+        <li><div id="">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#regfon" style="text-decoration: none;"><STRONG>REGISTRARSE</STRONG></a></div></li>
+      
       </ul>
 
     </div>
@@ -48,8 +49,8 @@
 </nav>
 
 <div class="jumbotron text-center">
-  <img style="width: 30%; height: auto; " src="imagenes/logo1.png">
-  <img style="width: 55%; height: auto;" src="imagenes/logo2.png"/>
+    <img class="flipInX" style="width: 30%; height: auto; " src="imagenes/logo1.png">
+    <img class="flipInX" style="width: 55%; height: auto;" src="imagenes/logo2.png"/>
   <form>
     <div class="input-group">
       
@@ -219,7 +220,7 @@
 </div>
 
 
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="portfolio" class="container-fluid text-center bg-grey" style="background: white;">
  <H1>DONACIONES</H1><br><br>
  <h3>Puedes ayudarnos...</h3><br>
    <div class="row slideanim">
@@ -231,27 +232,14 @@
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-cutlery logo-small" style="color: #BB0404"></span>
       <h4></h4>
-      <p>También lo aseamos para que estel limpio.</p>
+      <h4>También lo aseamos para que estel limpio.</h4>
+    </div>
+       <div class="col-sm-4">
+      <span class="glyphicon glyphicon-tags logo-small" style="color: #BB0404;"></span>
+      <h4>Puedes ayudar con accesorios</h4>
     </div>
     </div>
 </div>
-<!-- Add Google Maps 
-<div id="googleMap" style="height:400px;width:100%;"></div>
-<script>
-function myMap() {
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-var marker = new google.maps.Marker({position:myCenter});
-marker.setMap(map);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
