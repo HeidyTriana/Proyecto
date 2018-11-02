@@ -77,7 +77,7 @@
         <center>           
         <div id="tabla" class="tabla" >
             <h1> ANIMALES </h1>
-            <table border="1" >
+            <table border="1" class='table table-striped' style='border: 1px solid; width:80%; background:white; font-family: Lato; font-weight:bold;''>
                 <tr> 
                     <th style="width: 100px" id="Fila">MICRO CHIP</th>
                     <th style="width: 100px" id="Fila" >NOMBRE</th>
@@ -110,10 +110,6 @@
                     <th id="columna"><input style="width: 140px" type="text" name="ra" value="<%=igs.getRaza()%>"  readonly </th><br>
                     <th id="columna"><input style="width: 140px" type="text" name="fo" value="<%=igs.getFoto()%>" </th><br>
 
-
-                    <th><input  type="submit" name="btnmodificar"  Value="Modificar"   </th>
-                    <th><input type="submit" name="btneliminar" value="Eliminar"</th>
-                    
                  
                 </tr> 
                 </form>
