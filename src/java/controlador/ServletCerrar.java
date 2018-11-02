@@ -36,10 +36,13 @@ public class ServletCerrar extends HttpServlet {
         PrintWriter out = response.getWriter();
         
         if(request.getParameter("cerrar") != null){
+                       
         HttpSession dat=request.getSession();
         request.getSession().removeAttribute("envnom");
         dat.invalidate();
-        response.sendRedirect("index.jsp");
+        
+        out.println ("<html><head><script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script></head><body><script>swal('SESION CERRADA CON ÉXITO!','ADIÓS!','success').then(function(){ window.location = \"../ATAM \";});</script></body></html>");
+
         }
     }
 
