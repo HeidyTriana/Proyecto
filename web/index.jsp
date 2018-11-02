@@ -116,6 +116,47 @@
   </div>
 </div>
 
+
+<div id="pricing" class="container-fluid" style="background: lightgray;">
+  <div class="text-center">
+    <h2>EVENTOS</h2>
+    <h4>Asiste a nuestros eventos para apoyar a nuestra fundación.</h4><br>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+          <div class="panel-heading">
+          <h1>CLASE</h1>
+        </div>
+        <div class="panel-body">
+          <!--  AQUI VA LA IMAGEN DEL EVENTO -->
+          <img src="imagenes/even.jpg" class="img-responsive slideanim">
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>ESTERILIZACIÓN</h1>
+        </div>
+        <div class="panel-body">
+          <img src="imagenes/even1.png" class="img-responsive slideanim">
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>PROFILAXIS</h1>
+        </div>
+        <div class="panel-body">
+          <img src="imagenes/even2.jpg" class="img-responsive slideanim">
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+
 <div class="container-fluid bg-grey" id="regfon">
   <div class="row" >
     <div class="col-sm-4">
