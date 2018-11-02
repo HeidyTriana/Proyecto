@@ -133,7 +133,9 @@ public class ServletLogin extends HttpServlet {
             }
         }
             else{
-                JOptionPane.showMessageDialog(null, "Vuelva a digitar los datos" );
+  
+            out.println ("<html><head><script src='https://unpkg.com/sweetalert/dist/sweetalert.min.js'></script></head><body><script>swal('ERROR','Usuario o contraseña incorrectas!','warning').then(function(){ window.location = \"../ATAM \";});</script></body></html>");
+
             }
         
             String nom=log.Nombre();
