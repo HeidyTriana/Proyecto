@@ -34,8 +34,8 @@
     <form action="ServletLogin" method="post">
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right"><br>
-        <li>&nbsp;<span class="glyphicon glyphicon-user" style="color: black;"></span> <input style="text-align: center; width: 140px; height: 24px;" type="text" name="usu" placeholder="USUARIO"></li>&nbsp;&nbsp;
-        <li>&nbsp;<span class="glyphicon glyphicon-asterisk" style="color: black;"><input style="text-align: center; width: 140px; height: 24px; font-family: Montserrat;" type="password" name="clave" placeholder="CONTRASEÑA"></li>&nbsp;
+          <li>&nbsp;<span class="glyphicon glyphicon-user" id="in" style="color: black;"></span> <input style="text-align: center; width: 140px; height: 24px;" type="text" name="usu" placeholder="USUARIO"></li>&nbsp;&nbsp;
+          <li>&nbsp;<span class="glyphicon glyphicon-asterisk" id="in" style="color: black;"><input style="text-align: center; width: 140px; height: 24px; font-family: Montserrat;" type="password" name="clave" placeholder="CONTRASEÑA"></li>&nbsp;
         <li><div id="g">&nbsp;&nbsp;<input id="iniciar" class="field" type="submit" name="ingresar" value="INGRESAR"></div></li>
         
         <li><div id="">&nbsp;&nbsp;&nbsp;&nbsp;<a href="#regfon" style="text-decoration: none;"><STRONG>REGISTRARSE</STRONG></a></div></li>
