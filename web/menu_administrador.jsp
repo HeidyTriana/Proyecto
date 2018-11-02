@@ -14,11 +14,6 @@
             response.sendRedirect("index.jsp");
             
         }
-        else {
-            
-            JOptionPane.showMessageDialog(null, no);
-            
-        }
         
         %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -31,8 +26,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="estilos.css">
-  <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/22/22744.png">
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="shortcut icon" href="imagenes/logpes.png">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
 </head>
 <body>
