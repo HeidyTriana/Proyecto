@@ -17,19 +17,15 @@
             response.sendRedirect("index.jsp");
             
         }
-        else {
-            
-            JOptionPane.showMessageDialog(null, no);
-            
-        }
+        
         
         %>
 <html>
 <head>
-  <title>CONFIGURAR PERFIL</title>
+    <title>CONFIGURAR PERFIL</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/22/22744.png" />
+  <link rel="shortcut icon" href="imagenes/logpes.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
